@@ -1,4 +1,5 @@
-[
+{
+"questionnaires": [
   {
   "id": 1,
   "title": "First questionnaire",
@@ -33,3 +34,4 @@
   "otherInfo": "Nothing"
   }
 ]
+}
