@@ -10,26 +10,5 @@
   "status": "Accepting response",
   "otherInfo": "Nothing"
   },
-  {
-  "id": 2,
-  "title": "Second questionnaire",
-  "dateAssigned": "6 June 2018",
-  "deadline": "10 August 2019",
-  "description": "This is the second questionnaire",
-  "responseNumber": 40,
-  "assignedNumber": 50,
-  "status": "Accepting response",
-  "otherInfo": "Nothing"
-  },
-  {
-  "id": 3,
-  "title": "Third questionnaire",
-  "dateAssigned": "6 April 2018",
-  "deadline": "10 December 2019",
-  "description": "This is the second questionnaire",
-  "responseNumber": "40",
-  "assignedNumber": "50",
-  "status": "Accepting response",
-  "otherInfo": "Nothing"
-  }
+
 ]
