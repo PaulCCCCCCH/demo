@@ -8,7 +8,7 @@
   "responseNumber": 60,
   "assignedNumber": 145,
   "status": "Accepting response",
-  "otherInfo": "Nothing",
+  "otherInfo": "Nothing"
   },
   {
   "id": 2,
@@ -19,7 +19,7 @@
   "responseNumber": 40,
   "assignedNumber": 50,
   "status": "Accepting response",
-  "otherInfo": "Nothing",
+  "otherInfo": "Nothing"
   },
   {
   "id": 3,
@@ -30,6 +30,6 @@
   "responseNumber": "40",
   "assignedNumber": "50",
   "status": "Accepting response",
-  "otherInfo": "Nothing",
-  },
+  "otherInfo": "Nothing"
+  }
 ]
