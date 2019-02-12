@@ -1,37 +1,90 @@
 {
 "questionnaires": [
   {
+  "clientName": "ATOS",
+  "clientId": "1",
   "id": 1,
-  "title": "First questionnaire",
-  "dateAssigned": "9 Februay 2018",
+  "title": "First questionnaire (ATOS)",
+  "dateAssigned": "9 Februay 2018",    // These should be js Date object. However, haven't found a way to do that.
   "deadline": "10 March 2019",
   "description": "This is the first questionnaire",
   "responseNumber": 60,
   "assignedNumber": 145,
-  "status": "Accepting response",
-  "otherInfo": "Nothing"
+  "status": "Active",
+  "statusCode": 1,
+  "questionSetUrl": "",                 // Not done yet
+  "responseSetListUrl": "",
+  "respondentListUrl": ""
   },
   {
+  "clientName": "NHS",
+  "clientId": "2",
   "id": 2,
-  "title": "Second questionnaire",
-  "dateAssigned": "6 June 2018",
-  "deadline": "10 August 2019",
+  "title": "Second questionnaire (NHS) ",
+  "dateAssigned": "9 Februay 2018",    // These should be js Date object. However, haven't found a way to do that.
+  "deadline": "10 March 2019",
   "description": "This is the second questionnaire",
-  "responseNumber": 40,
-  "assignedNumber": 50,
-  "status": "Accepting response",
-  "otherInfo": "Nothing"
+  "responseNumber": 60,
+  "assignedNumber": 145,
+  "status": "Active",
+  "statusCode": 1,
+  "questionSetUrl": "",                 // Not done yet
+  "responseSetListUrl": "",
+  "respondentListUrl": ""
   },
   {
+  "clientName": "ATOS",
+  "clientId": "1",
   "id": 3,
-  "title": "Third questionnaire",
-  "dateAssigned": "6 April 2018",
-  "deadline": "10 December 2019",
-  "description": "This is the second questionnaire",
-  "responseNumber": "40",
-  "assignedNumber": "50",
-  "status": "Accepting response",
-  "otherInfo": "Nothing"
+  "title": "Third questionnaire (ATOS) ",
+  "dateAssigned": "9 Februay 2018",    // These should be js Date object. However, haven't found a way to do that.
+  "deadline": "10 March 2019",
+  "description": "This is the third questionnaire",
+  "responseNumber": 60,
+  "assignedNumber": 145,
+  "status": "Active",
+  "statusCode": 1,
+  "questionSetUrl": "",                 // Not done yet
+  "responseSetListUrl": "",
+  "respondentListUrl": ""
+  },
+  {
+  "clientName": "IBM",
+  "clientId": "3",
+  "id": 4,
+  "title": "Fourth questionnaire (IBM)",
+  "dateAssigned": "9 Februay 2018",    // These should be js Date object. However, haven't found a way to do that.
+  "deadline": "10 March 2019",
+  "description": "This is the IBM's questionnaire",
+  "responseNumber": 60,
+  "assignedNumber": 145,
+  "status": "Active",
+  "statusCode": 1,
+  "questionSetUrl": "",                 // Not done yet
+  "responseSetListUrl": "",
+  "respondentListUrl": "",
   }
-]
+], 
+
+"clients": [
+  {
+  "id": 1
+  "name": "ATOS"			
+  "description": "A great business model"			
+  "questionnaires": [1, 3] 	
+  }, 
+  {
+  "id": 2
+  "name": "NHS"			
+  "description": "National Health Service of UK"			
+  "questionnaires": [2] 	
+  }, 
+  {
+  "id": 3
+  "name": "IBM"			
+  "description": "Their marketing department"			
+  "questionnaires": [4] 	
+  }
+],
+  
 }
