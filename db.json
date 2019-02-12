@@ -5,14 +5,14 @@
   "clientId": "1",
   "id": 1,
   "title": "First questionnaire (ATOS)",
-  "dateAssigned": "9 Februay 2018",    // These should be js Date object. However, haven't found a way to do that.
+  "dateAssigned": "9 Februay 2018",  
   "deadline": "10 March 2019",
   "description": "This is the first questionnaire",
   "responseNumber": 60,
   "assignedNumber": 145,
   "status": "Active",
   "statusCode": 1,
-  "questionSetUrl": "",                 // Not done yet
+  "questionSetUrl": "",                
   "responseSetListUrl": "",
   "respondentListUrl": ""
   },
@@ -21,14 +21,14 @@
   "clientId": "2",
   "id": 2,
   "title": "Second questionnaire (NHS) ",
-  "dateAssigned": "9 Februay 2018",    // These should be js Date object. However, haven't found a way to do that.
+  "dateAssigned": "9 Februay 2018",   
   "deadline": "10 March 2019",
   "description": "This is the second questionnaire",
   "responseNumber": 60,
   "assignedNumber": 145,
   "status": "Active",
   "statusCode": 1,
-  "questionSetUrl": "",                 // Not done yet
+  "questionSetUrl": "",             
   "responseSetListUrl": "",
   "respondentListUrl": ""
   },
@@ -37,14 +37,14 @@
   "clientId": "1",
   "id": 3,
   "title": "Third questionnaire (ATOS) ",
-  "dateAssigned": "9 Februay 2018",    // These should be js Date object. However, haven't found a way to do that.
+  "dateAssigned": "9 Februay 2018",   
   "deadline": "10 March 2019",
   "description": "This is the third questionnaire",
   "responseNumber": 60,
   "assignedNumber": 145,
   "status": "Active",
   "statusCode": 1,
-  "questionSetUrl": "",                 // Not done yet
+  "questionSetUrl": "",               
   "responseSetListUrl": "",
   "respondentListUrl": ""
   },
@@ -53,14 +53,14 @@
   "clientId": "3",
   "id": 4,
   "title": "Fourth questionnaire (IBM)",
-  "dateAssigned": "9 Februay 2018",    // These should be js Date object. However, haven't found a way to do that.
+  "dateAssigned": "9 Februay 2018",    
   "deadline": "10 March 2019",
   "description": "This is the IBM's questionnaire",
   "responseNumber": 60,
   "assignedNumber": 145,
   "status": "Active",
   "statusCode": 1,
-  "questionSetUrl": "",                 // Not done yet
+  "questionSetUrl": "",                
   "responseSetListUrl": "",
   "respondentListUrl": "",
   }
@@ -68,21 +68,21 @@
 
 "clients": [
   {
-  "id": 1
-  "name": "ATOS"			
-  "description": "A great business model"			
-  "questionnaires": [1, 3] 	
+  "id": 1,
+  "name": "ATOS",
+  "description": "A great business model",		
+  "questionnaires": [1, 3]
   }, 
   {
-  "id": 2
-  "name": "NHS"			
-  "description": "National Health Service of UK"			
+  "id": 2,
+  "name": "NHS",
+  "description": "National Health Service of UK",			
   "questionnaires": [2] 	
   }, 
   {
-  "id": 3
-  "name": "IBM"			
-  "description": "Their marketing department"			
+  "id": 3,
+  "name": "IBM",			
+  "description": "Their marketing department",			
   "questionnaires": [4] 	
   }
 ],
