@@ -139,8 +139,29 @@
       {  
          "questionnaireId":4,
          "questions":[  
-            1111,
-            2222
+            {
+             "id": 1111,
+             "type": "text",
+             "typeCode": "1",
+             "preReqs": [],
+             "questionBody": "How do you like IBM?",
+             "choices": []
+           },
+           {
+             "id": 2222,
+             "type": "multiple choices",
+             "typeCode": "4",
+             "preReqs": [
+               1111
+             ],
+             "questionBody": "You would say which of the following?",
+             "choices": [
+               "I hate IBM",
+               "IBM helps improve my IT skills",
+               "IBM is the greatest company ever",
+               "I wish I could work forever"
+             ]
+           }
          ],
          "responseSetListUrl":"https://my-json-server.typicode.com/paulcccccch/demo/responseSets"
       }
