@@ -114,29 +114,33 @@
       }
    ],
    "responses":[  
-      {  
-         "responseId":11111,
-         "type":"text",
-         "typeCode":1,
-         "responseBody":"IBM is a great company!"
+      {
+        "questionId": 1111,
+        "responseId": 11111,
+        "type": "text",
+        "typeCode": 1,
+        "responseBody": "IBM is a great company!"
       },
-      {  
-         "responseId":22222,
-         "type":"multiple choices",
-         "typeCode":4,
-         "responseBody":"2,3,4"
+      {
+        "questionId": 2222,
+        "responseId": 22222,
+        "type": "multiple choices",
+        "typeCode": 4,
+        "responseBody": "2,3,4"
       },
-      {  
-         "responseId":44444,
-         "type":"multiple choices",
-         "typeCode":4,
-         "responseBody":"2"
+      {
+        "questionId": 2222,
+        "responseId": 44444,
+        "type": "multiple choices",
+        "typeCode": 4,
+        "responseBody": "2"
       },
-      {  
-         "responseId":33333,
-         "type":"text",
-         "typeCode":1,
-         "responseBody":"I like working in IBM IT department!"
+      {
+        "questionId": 1111,
+        "responseId": 33333,
+        "type": "text",
+        "typeCode": 1,
+        "responseBody": "I like working in IBM IT department!"
       }
    ],
    "questionSets":[  
