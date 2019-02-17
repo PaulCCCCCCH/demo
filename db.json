@@ -72,8 +72,18 @@
             "questionnaireId":4,
             "questionSetUrl":"",
             "responses":[  
-                11111,
-                22222
+                {
+                "responseId": 11111,
+                "type": "text",
+                "typeCode": 1,
+                "responseBody": "IBM is a great company!"
+                },
+                {
+                "responseId": 22222,
+                "type": "multiple choices",
+                "typeCode": 4,
+                "responseBody": "2,3,4"
+                },
             ],
             "submitDate":"5 March 2019",
             "excerpt":"I like ..."
@@ -83,8 +93,18 @@
             "questionnaireId":4,
             "questionSetUrl":"",
             "responses":[  
-                33333,
-                44444
+                {
+                "responseId": 33333,
+                "type": "text",
+                "typeCode": 1,
+                "responseBody": "I like working in IBM IT department!"
+                },
+                {
+                "responseId": 44444,
+                "type": "multiple choices",
+                "typeCode": 4,
+                "responseBody": "2"
+                }
             ],
             "submitDate":"5 April 2019",
             "excerpt":"IBM is a great..."
