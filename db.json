@@ -182,7 +182,7 @@
       {  
          "id":1111,
          "type":"text",
-         "typeCode":"1",
+         "typeCode":1,
          "preReqs":[  
 
          ],
@@ -194,7 +194,7 @@
       {  
          "id":2222,
          "type":"multiple choices",
-         "typeCode":"4",
+         "typeCode":4,
          "preReqs":[  
             1111
          ],
