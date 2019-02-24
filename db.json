@@ -83,7 +83,7 @@
                "responseId":22222,
                "type":"multiple choices",
                "typeCode":4,
-               "responseBody":"2,3,4"
+               "responseBody":"1,2,3"
             }
          ],
          "submitDate":"5 March 2019",
@@ -106,7 +106,7 @@
                "responseId":44444,
                "type":"multiple choices",
                "typeCode":4,
-               "responseBody":"2"
+               "responseBody":"1"
             }
          ],
          "submitDate":"5 April 2019",
@@ -126,14 +126,14 @@
          "responseId":22222,
          "type":"multiple choices",
          "typeCode":4,
-         "responseBody":"2,3,4"
+         "responseBody":"1,2,3"
       },
       {  
          "questionId":2222,
          "responseId":44444,
          "type":"multiple choices",
          "typeCode":4,
-         "responseBody":"2"
+         "responseBody":"1"
       },
       {  
          "questionId":1111,
