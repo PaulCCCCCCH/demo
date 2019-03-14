@@ -173,6 +173,21 @@
                   "IBM is the greatest company ever",
                   "I wish I could work forever"
                ]
+            },
+            {  
+               "id":6666,
+               "type":"Choices",
+               "typeCode":3,
+               "preReqs":[  
+                  1111
+               ],
+               "questionBody":"Which of the following sounds best to you?",
+               "choices":[  
+                  "Emmmmmmm, I have no idea",
+                  "Salary goes up.",
+                  "Longer holidays!",
+                  "Free lunch."
+               ]
             }
          ],
          "responseSetListUrl":"https://my-json-server.typicode.com/paulcccccch/demo/responseSets"
@@ -204,6 +219,21 @@
             "IBM helps improve my IT skills",
             "IBM is the greatest company ever",
             "I wish I could work forever"
+         ]
+      },
+      {  
+         "id":6666,
+         "type":"Choices",
+         "typeCode":3,
+         "preReqs":[  
+            1111
+         ],
+         "questionBody":"Which of the following sounds best to you?",
+         "choices":[  
+            "Emmmmmmm, I have no idea",
+            "Salary goes up.",
+            "Longer holidays!",
+            "Free lunch."
          ]
       }
    ]
